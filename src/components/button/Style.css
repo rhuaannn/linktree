@@ -1,0 +1,20 @@
+.btn{
+  display: flex;
+  flex-direction: column;
+  background-color: #04345F;
+  width: 100%;
+  height: 55px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: "Open Sans";
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+}
+.button{
+ padding-bottom: 25px;
+ text-decoration: none;
+
+}

@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("./fonts/OpenSans-SemiBold.ttf") format("truetype");
+}
+
+body {
+  overflow: hidden;
+  background-image: url(./assets/back.png);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+@media screen and (min-width: 1280px) {
+  body {
+    background-image: url(./assets/back.png);
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding-bottom: 115px;
+  }
+  .button {
+    font-size: 58px;
+    justify-content: center;
+    display: flex;
+  }
+  .btn {
+    width: 37vw;
+  }
+  @media screen and (min-width: 1580px) {
+    body {
+      background-image: url(./assets/back.png);
+      background-size: contain;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      padding-bottom: 115px;
+    }
+}
+}

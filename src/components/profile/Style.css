@@ -1,0 +1,14 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.profile{
+  display: flex;
+  padding-top: 15em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #539ce2;
+  padding-bottom: 55px;
+}
